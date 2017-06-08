@@ -1,0 +1,19 @@
+{
+  "name": "mon2cas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --expose-gc --harmony-async-await index.js",
+    "all": "node --expose-gc --harmony-async-await index.js full"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cassandra-driver": "^3.1.6",
+    "date-format": "^1.0.0",
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.19",
+    "node-uuid": "^1.4.7"
+  }
+}
